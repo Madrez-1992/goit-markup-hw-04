@@ -194,8 +194,9 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:focus,
-.hero-button:hover {
+
+.hero-button:hover,
+.hero-button:focus{
   background-color: #404bbf;
 }
 /*=================Lorem section 2=============*/
@@ -328,6 +329,7 @@ img {
 } 
 
 .media-icons{
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   width: 40px;
   height: 40px;
 
@@ -344,9 +346,10 @@ img {
 
 }
 
-.media:focus,
+.media:focus ,
 .media:hover {
   background-color: #404bbf;
+  
 
 }
 
@@ -513,6 +516,6 @@ overflow: hidden;
 
 .media-icons-footer{
   fill: #f4f4fd;
-  
+
 
 }
