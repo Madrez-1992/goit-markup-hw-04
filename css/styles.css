@@ -335,13 +335,13 @@ img {
   justify-content: center;
 }
 
+
+.media:hover,
 .media:focus {
-  background-color: #404bbf;
+background-color: #404bbf;
 }
 
-.media:hover {
-  background-color: #404bbf;
-}
+ 
 
 .icons-link {
   fill: #f4f4fd;
@@ -506,8 +506,9 @@ img {
   justify-content: center; */
 }
 
-.footer-link:focus,
-.footer-link:hover {
+
+.footer-link:hover, 
+.footer-link:focus {
   background-color: #31d0aa;
 }
 
